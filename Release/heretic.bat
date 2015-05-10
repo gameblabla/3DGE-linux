@@ -1,0 +1,1 @@
+3DGE.exe -iwad heretic.wad -ddf .\herddf -file HERFIX.wad

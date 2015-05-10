@@ -9,7 +9,7 @@
 * Visit the 3DGE Wiki: http://3dfxdev.net/edgewiki
 
 README
-This is the Git source repo for 3DGE.
+This is the Git source repo for 3DGE-linux.
 
 Build System for 3DGE
 ---------------------
