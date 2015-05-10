@@ -1,0 +1,6 @@
+obj_win32/
+lib_win32/
+obj_linux/
+lib_linux/
+obj_dc/
+./3dge
