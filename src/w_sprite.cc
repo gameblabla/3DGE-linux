@@ -28,6 +28,7 @@
 // -AJA- 1999/07/12: Now uses colmap.ddf.
 //
 
+#include <cstddef>
 #include "i_defs.h"
 
 #include "e_main.h"
@@ -521,7 +522,9 @@ void W_InitSprites(void)
 		spritedef_c *def = sprites[st->sprite];
 
 		if (st->flags & SFF_Weapon)
+		{
 			def->frames[st->frame].is_weapon = true;
+		}
 	}
 
 	// 5. Fill in frames using wad lumps + images.ddf

@@ -20,7 +20,7 @@
 #define __DDF_ATK_H__
 
 #include "../epi/utility.h"
-
+#include <cstddef>
 #include "types.h"
 
 

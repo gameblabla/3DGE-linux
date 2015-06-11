@@ -6,11 +6,10 @@
 the official 3DGE repo is suffering from.
 This allows you to build a Linux version too, unlike the official version.
 
-To compile it :
-make -f Makefile.linux
-
-You can build it with scons too:
+To compile it, type :
 scons
+
+Yeah, now you need scons for a proper build, the Makefile does not work for now.
 
 All the files required to run 3DGE can be found in the folder "Release".
 For doom, you need to buy it in stores like Steam.

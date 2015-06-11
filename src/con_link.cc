@@ -128,7 +128,7 @@ cvar_link_t  all_cvars[] =
   	{ "mouse_filter",   &mouse_filter,   "c",   "0"  },
 
 	{ "goobers",        &m_goobers,      "",    "0" },
-	{ "m_diskicon",     &m_diskicon,     "c",   "1"  },
+	{ "m_diskicon",     &m_diskicon,     "c",   "0"  },
 	{ "m_busywait",     &m_busywait,     "c",   "1"  },
 
 	/* Rendering Stuff */
@@ -150,14 +150,14 @@ cvar_link_t  all_cvars[] =
 	{ "r_precache_sprite", &r_precache_sprite, "c", "1" },
 	{ "r_precache_model",  &r_precache_model,  "c", "1" },
 
-	{ "r_colormaterial",&r_colormaterial, "",   "1"  },
-	{ "r_colorlighting",&r_colorlighting, "",   "1"  },
+	{ "r_colormaterial",&r_colormaterial, "",   "0"  },
+	{ "r_colorlighting",&r_colorlighting, "",   "0"  },
 	{ "r_dumbsky",      &r_dumbsky,       "",   "0"  },
 	{ "r_dumbmulti",    &r_dumbmulti,     "",   "0"  },
 	{ "r_dumbcombine",  &r_dumbcombine,   "",   "0"  },
 	{ "r_dumbclamp",    &r_dumbclamp,     "",   "0"  },
 
-	{ "am_smoothing",   &am_smoothing,   "c",   "1"  },
+	{ "am_smoothing",   &am_smoothing,   "c",   "0"  },
 	{ "am_gridsize",    &am_gridsize,    "c",   "128" },
 
 	/* Sound Stuff */
@@ -172,9 +172,9 @@ cvar_link_t  all_cvars[] =
 	{ "debug_fps",        &debug_fps,        "c", "0" },
 	
 	{ "r_md5scale",        &r_md5scale,        "c", "5" },
-	{ "r_lerp",        &r_lerp,        "c", "1" },
+	{ "r_lerp",        &r_lerp,        "c", "0" },
 	{ "r_maxfps",        &r_maxfps,        "c", "60" },
-	{ "r_vsync",        &r_vsync,        "c", "1" },
+	{ "r_vsync",        &r_vsync,        "c", "0" },
 
 #if 0 // FIXME
     { "edge_compat",    &edge_compat,    "",    "0"  },
